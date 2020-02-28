@@ -1,8 +1,8 @@
-const orm = require("./config/orm.js");
+const orm = require("../config/orm.js");
 
 const burger = {
-    all: function(cb) {
-        orm.all("burgers", function(res) {
+    selectAll: function(cb) {
+        orm.selectAll("burgers", function(res) {
             cb(res);
         });
     },
@@ -17,11 +17,7 @@ const burger = {
             cb(res);
         });
     },
-    delete: function(condition, cb) {
-        orm.delete("burgers", condition, function(res) {
-            cb(res);
-        });
-    }
+   
 };
 
 
