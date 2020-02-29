@@ -1,6 +1,6 @@
 $(function() {
     $(".change-dev").on("click", function(event) {
-        console.log("Got it.");
+        console.log("Hit.");
       var id = $(this).data("id");
       var newDevoured = $(this).data("newdev");
   

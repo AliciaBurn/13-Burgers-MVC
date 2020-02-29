@@ -1,3 +1,5 @@
+USE burgers_db;
+
 INSERT INTO burgers (burger_name) VALUES ('The Final Kraut Down Burger
 ');
 INSERT INTO burgers (burger_name) VALUES ('Sweet Chili O’Mine Burger');

@@ -82,4 +82,4 @@ function printQuestionMarks(num) {
       },
     };
 
-    module.export = orm;
+    module.exports = orm;
