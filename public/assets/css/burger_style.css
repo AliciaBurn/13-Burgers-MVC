@@ -1,0 +1,62 @@
+body {
+    background-color:#e7ca26;
+}
+
+#page-title {
+    text-align: center;
+    font-family: 'Barriecito';
+    color: #c91919;
+    font-size: 6em;
+    margin-top: 10px;
+}
+
+#burger-img {
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.create-form {
+    text-align: center;
+}
+
+#add-burger {
+    text-align: center;
+    color: #0aa70a;
+    font-family: 'Baloo Tamma';
+    font-size: 3em;
+    margin-bottom: 3px;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+  }
+  
+.column {
+    flex: 50%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #c91919;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.list-title {
+    font-family: 'Baloo Tamma';
+    color: #0aa70a;
+}
+
+.change-dev {
+    font-size: 15px;
+    background-color: #c91919;
+}
+
