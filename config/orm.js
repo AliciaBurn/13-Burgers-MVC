@@ -8,21 +8,21 @@ let printQuestionMarks = num => {
     return arr.toString();
 }
 
-let objToSql = ob => {
-    let arr = [];
+// let objToSql = ob => {
+//     let arr = [];
 
-    for (let key in ob) {
-        let value = ob[key];
-        if (Object.hasOwnProperty.call(ob, key)) {
-            if (typeof value === "string" && value.indexOf(" ") >= 0) {
-                value = "'" + value + "'";
-            }
+//     for (let key in ob) {
+//         let value = ob[key];
+//         if (Object.hasOwnProperty.call(ob, key)) {
+//             if (typeof value === "string" && value.indexOf(" ") >= 0) {
+//                 value = "'" + value + "'";
+//             }
 
-            arr.push(key + "=" + value);
-        }
-    }
-    return arr.toString();
-}
+//             arr.push(key + "=" + value);
+//         }
+//     }
+//     return arr.toString();
+// }
 
 let orm = {
     selectAll: function(table, cb) {
